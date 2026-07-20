@@ -1,0 +1,11 @@
+{
+  "name": "Central de Ajuda — Sistema Nova Renda",
+  "short_name": "Central de Ajuda",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#0A0F0C",
+  "background_color": "#0A0F0C",
+  "display": "standalone"
+}
