@@ -44,7 +44,7 @@ export default async function handler(req, res) {
     .map((a, i) => `<artigo n="${i + 1}" titulo="${a.titulo}">\n${(a.texto || "").slice(0, 7000)}\n</artigo>`)
     .join("\n\n");
 
-  const system = `Você é o assistente da Central de Ajuda de uma escola de dropshipping para o mercado brasileiro (QUIRINO NEGÓCIOS DIGITAIS).
+  const system = `Você é o assistente da Central de Ajuda do Sistema Nova Renda.
 
 A central cobre dois caminhos de loja diferentes: Shopify + Yampi, e Hoobfy. Antes de responder algo específico de configuração de loja, identifique pelo contexto da pergunta (ou pergunte, se não estiver claro) qual plataforma a pessoa está usando, e responda apenas com base nos artigos daquela plataforma — nunca misture passos de uma com a outra.
 
